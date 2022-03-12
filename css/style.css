@@ -1,0 +1,49 @@
+body {
+    width: 100% !important;
+    direction: rtl;
+}
+
+header {
+    background-image: url("../img/background⁪.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    margin-top: 2rem !important;
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+}
+
+footer div a {
+    padding: 3vh;
+    font-size: 2rem !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+footer div {
+    padding: 5vh !important;
+}
+
+span.p-1 {
+    font-size: 1rem !important;
+}
+
+@media screen and (min-width: 700px) {
+    span.fw-bold {
+        font-weight: normal !important;
+        font-size: .7rem;
+    }
+    footer div a {
+        padding: 3vh;
+        font-size: 3rem !important;
+        color: white !important;
+        text-decoration: none;
+    }
+    #copyright {
+        padding-top: 3em !important;
+    }
+}
